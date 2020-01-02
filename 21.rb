@@ -231,7 +231,7 @@
 Program = open("21.in").read.scan(/-?\d+/).map(&:to_i)
 
 def run(&block)
-  # runs the program to completion; yields to the associated block for
+  # Runs the program to completion; yields to the associated block for
   # input and output.
   p = Program.clone
   ip = 0
